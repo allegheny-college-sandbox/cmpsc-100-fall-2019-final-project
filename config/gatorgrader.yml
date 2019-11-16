@@ -27,4 +27,4 @@ writing:
             
 CountCommits --count 5
 ExecuteCommand --command "gradle build"
-CountCommandOutput --command "gradle run"
+ExecuteCommand --command "gradle run"
