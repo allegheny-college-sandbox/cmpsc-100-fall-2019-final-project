@@ -1,0 +1,26 @@
+---
+name: final-project
+break: true
+indent: 4
+---
+README.md:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "{Your Name Here}" --count -0 --exact
+    
+project:
+    reflection.md:
+        ConfirmFileExists
+        MatchFileFragment --fragment "TODO" --count 0 --exact
+        MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
+            
+writing:
+    reflection.md:
+        ConfirmFileExists
+        MatchFileFragment --fragment "TODO" --count 0 --exact
+        CountMarkdownTags --tag "heading" --count 5
+        CountMarkdownTags --tag "code_block" --count 2
+            
+CountCommits --count 5
+ExecuteCommand --command "gradle build"
+CountCommandOutput --command "gradle run"
