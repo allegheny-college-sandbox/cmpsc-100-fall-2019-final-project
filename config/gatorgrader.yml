@@ -20,6 +20,7 @@ project:
             
 writing:
     reflection.md:
+        mdl
         ConfirmFileExists
         MatchFileFragment --fragment "TODO" --count 0 --exact
         CountMarkdownTags --tag "heading" --count 5

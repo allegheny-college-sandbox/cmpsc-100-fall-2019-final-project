@@ -25,9 +25,12 @@ While the overall topic is up to you, a full realized project should contain:
     * Passes `gradle run`
 - [ ] "Broken," "starter" code located in the `src/test/java/` directory in a subdirectory named according to your topic which:
     * Contains complete `Javadoc` comments for all `classes` and `methods` (see `Appendix J` in _JSS_)
+    * Uses `TODO` markers to direct students to areas requiring completion
 
 ### Reflections
-- [ ] A "starter" `reflection.md` file located in the `writing` directory which contains at least `5` questions posed in document `headings`, using correct Markdown which:
-    * Contains no `TODO` markers
+- [ ] A "starter" `reflection.md` file located in the `writing` directory using correct markdown which:
+    * Contains at least 5 questions posed heading tags
+    * Uses "how," "why," or other questions prompting students to write extended answers
+    * Uses at least 1 blank code block
 - [ ] A reflection on your process creating this exercise which responds to questions located in `project-reflection.md` file in the `project` directory which:
     * Contains no `TODO` markers
