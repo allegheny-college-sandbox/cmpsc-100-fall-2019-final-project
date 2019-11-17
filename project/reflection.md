@@ -8,6 +8,12 @@ TODO: Write reflection
 
 ## Describe the structure of your solution Java files. How did you come up with it?
 
+### What is the trickiest `method` or code snippet? Paste below and describe why.
+
+```java
+
+```
+
 ## How did you arrive at your grading criteria?
 
 ## On a scale from 1 (easy) - 5 (difficult), how would you rate your exercise? Why?

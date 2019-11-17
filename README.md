@@ -34,3 +34,5 @@ While the overall topic is up to you, a full realized project should contain:
     * Uses at least 1 blank code block
 - [ ] A reflection on your process creating this exercise which responds to questions located in `project-reflection.md` file in the `project` directory which:
     * Contains no `TODO` markers
+    * Is at least 750 words
+    * Uses at least 1 code block

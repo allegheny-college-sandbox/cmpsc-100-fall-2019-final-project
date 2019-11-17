@@ -4,27 +4,21 @@ break: true
 indent: 4
 ---
 README.md:
-    mdl
-    proselint
     ConfirmFileExists
     MatchFileFragment --fragment "TODO" --count 0 --exact
     MatchFileFragment --fragment "{Your Name Here}" --count -0 --exact
     
 project:
     reflection.md:
-        mdl
-        proselint
         ConfirmFileExists
         MatchFileFragment --fragment "TODO" --count 0 --exact
-        MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
+        CountFileWords --count 750
             
 writing:
     reflection.md:
-        mdl
         ConfirmFileExists
-        MatchFileFragment --fragment "TODO" --count 0 --exact
         CountMarkdownTags --tag "heading" --count 5
-        CountMarkdownTags --tag "code_block" --count 2
+        CountMarkdownTags --tag "code_block" --count 1
             
 CountCommits --count 5
 ExecuteCommand --command "gradle build"
