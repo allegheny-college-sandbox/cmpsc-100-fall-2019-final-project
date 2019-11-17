@@ -27,14 +27,11 @@ As for a markdown cheatsheet, [this GitHub repository](https://github.com/adam-p
 
 ## `TODO Title of your lab`
 
+`TODO Write story here, making sure to include consequential details which affect the build`
 
 ## Required deliverables
 
-```
-
-TODO Create lists of grading criteria for all files, separated by the appropriate level of heading which use the "- [ ]" and "*" Markdown symbols to create checklists and important bullet points
-
-```
+`TODO Create lists of grading criteria for all files, separated by the appropriate level of heading which use the "- [ ]" and "*" Markdown symbols to create checklists and important bullet points`
 
 ## GatorGrader
 
